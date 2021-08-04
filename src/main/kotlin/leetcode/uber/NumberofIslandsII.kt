@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 class NumberofIslandsII {
     private val di = listOf(1, -1, 0, 0)

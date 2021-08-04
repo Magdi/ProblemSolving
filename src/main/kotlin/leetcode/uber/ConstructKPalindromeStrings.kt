@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 class ConstructKPalindromeStrings {
     fun canConstruct(s: String, k: Int): Boolean {

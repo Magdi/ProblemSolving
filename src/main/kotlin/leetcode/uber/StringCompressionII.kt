@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 /**
  * 1531. String Compression II

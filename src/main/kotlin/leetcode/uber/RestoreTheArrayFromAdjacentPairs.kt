@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 class RestoreTheArrayFromAdjacentPairs {
     fun restoreArray(adjacentPairs: Array<IntArray>): IntArray {

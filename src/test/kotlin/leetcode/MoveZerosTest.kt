@@ -1,5 +1,6 @@
 package leetcode
 
+import leetcode.uber.MoveZeros
 import org.junit.Assert.*
 import org.junit.Test
 

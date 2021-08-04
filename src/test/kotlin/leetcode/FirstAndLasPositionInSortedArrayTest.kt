@@ -1,6 +1,7 @@
 package leetcode
 
 
+import leetcode.uber.FirstAndLasPositionInSortedArray
 import org.junit.Assert.*
 import org.junit.Test
 

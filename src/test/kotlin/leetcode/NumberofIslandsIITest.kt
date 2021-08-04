@@ -1,9 +1,9 @@
 package leetcode
 
+import leetcode.uber.NumberofIslandsII
 import org.junit.Test
 
 import org.junit.Assert.*
-import kotlin.random.Random
 
 class NumberofIslandsIITest {
 

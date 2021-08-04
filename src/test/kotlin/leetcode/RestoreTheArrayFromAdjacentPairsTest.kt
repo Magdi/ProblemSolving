@@ -1,5 +1,6 @@
 package leetcode
 
+import leetcode.uber.RestoreTheArrayFromAdjacentPairs
 import org.junit.Test
 
 import org.junit.Assert.*

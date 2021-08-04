@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 import java.util.*
 import kotlin.Comparator

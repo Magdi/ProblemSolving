@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 class RotatingtheBox {
     fun rotateTheBox(box: Array<CharArray>): Array<CharArray> {

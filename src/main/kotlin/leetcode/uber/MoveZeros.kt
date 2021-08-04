@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 /**
  * https://leetcode.com/problems/move-zeroes/
