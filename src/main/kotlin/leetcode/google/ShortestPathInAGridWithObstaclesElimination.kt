@@ -26,18 +26,10 @@ class ShortestPathInAGridWithObstaclesElimination {
                     val nx = cur.x + di[d]
                     val ny = cur.y + dj[d]
                     if (nx in 0 until n && ny in 0 until m) {
-                        if (grid[nx][ny] == 1 && cur.remainingElimination >= 1) {
-                            val nState = State(nx, ny, cur.remainingElimination - 1)
-                            if (!visited.contains(nState)) {
-                                queue.offer(nState)
-                                visited[nState] = level
-                            }
-                        } else if (grid[nx][ny] == 0) {
-                            val nState = State(nx, ny, cur.remainingElimination)
-                            if (!visited.contains(nState)) {
-                                queue.offer(nState)
-                                visited[nState] = level
-                            }
+                        val nState = State(nx, ny, cur.remainingElimination - grid[nx][ny])
+                        if (nState.remainingElimination >= 0 && !visited.contains(nState)) {
+                            queue.offer(nState)
+                            visited[nState] = level
                         }
                     }
                 }
