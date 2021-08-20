@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 import leetcode.uber.SlidingPuzzle
 import org.junit.Test

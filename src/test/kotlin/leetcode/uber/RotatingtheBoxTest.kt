@@ -1,6 +1,5 @@
-package leetcode
+package leetcode.uber
 
-import leetcode.uber.RotatingtheBox
 import org.junit.Assert.assertArrayEquals
 import org.junit.Test
 

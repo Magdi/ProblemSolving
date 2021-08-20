@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 import leetcode.uber.MoveZeros
 import org.junit.Assert.*

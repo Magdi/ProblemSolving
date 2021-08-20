@@ -1,11 +1,11 @@
-package leetcode
+package leetcode.uber
 
-import leetcode.uber.OptimalAccountBalancing
+import leetcode.uber.OptimalAccountBalancing2
 import org.junit.Test
 
 import org.junit.Assert.*
 
-class OptimalAccountBalancingTest {
+class OptimalAccountBalancing2Test {
 
     @Test
     fun `minTransfers test case 1`() {
@@ -13,7 +13,7 @@ class OptimalAccountBalancingTest {
             intArrayOf(0, 1, 10),
             intArrayOf(2, 0, 5),
         )
-        assertEquals(2, OptimalAccountBalancing().minTransfers(transactions))
+        assertEquals(2, OptimalAccountBalancing2().minTransfers(transactions))
     }
 
     @Test
@@ -24,7 +24,7 @@ class OptimalAccountBalancingTest {
             intArrayOf(1, 2, 5),
             intArrayOf(2, 0, 5),
         )
-        assertEquals(1, OptimalAccountBalancing().minTransfers(transactions))
+        assertEquals(1, OptimalAccountBalancing2().minTransfers(transactions))
     }
 
     @Test
@@ -35,7 +35,7 @@ class OptimalAccountBalancingTest {
             intArrayOf(1, 2, 5),
             intArrayOf(2, 0, 4),
         )
-        assertEquals(2, OptimalAccountBalancing().minTransfers(transactions))
+        assertEquals(2, OptimalAccountBalancing2().minTransfers(transactions))
     }
 
     @Test
@@ -46,6 +46,6 @@ class OptimalAccountBalancingTest {
             intArrayOf(2, 0, 1),
             intArrayOf(4, 0, 2),
         )
-        assertEquals(4, OptimalAccountBalancing().minTransfers(transactions))
+        assertEquals(4, OptimalAccountBalancing2().minTransfers(transactions))
     }
 }

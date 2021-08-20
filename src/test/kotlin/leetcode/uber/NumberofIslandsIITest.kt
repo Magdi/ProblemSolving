@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 import leetcode.uber.NumberofIslandsII
 import org.junit.Test

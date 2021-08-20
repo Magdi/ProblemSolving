@@ -7,7 +7,7 @@ import java.util.*
 import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
-class MockInterviews {
+class MockInterviews1Test {
     @Test
     fun `test case 1`() {
         assertEquals("", MockSolution1().removeDuplicates("aa"))
@@ -37,7 +37,7 @@ class MockInterviews {
 /**
  * Stream of Characters
  */
-class StreamChecker(words: Array<String>) {
+private class StreamChecker(words: Array<String>) {
     private val trie = Trie()
     private var maxLength = 0
 
@@ -56,7 +56,7 @@ class StreamChecker(words: Array<String>) {
     }
 
 
-    class Trie(private val root: TrieNode = TrieNode()) {
+    private class Trie(private val root: TrieNode = TrieNode()) {
         fun add(s: String) {
             var cur = root
             s.forEachIndexed { index, c ->
@@ -80,7 +80,7 @@ class StreamChecker(words: Array<String>) {
         }
     }
 
-    class TrieNode(private val charMap: HashMap<Char, TrieNode> = HashMap(), var isEnd: Boolean = false) {
+    private class TrieNode(private val charMap: HashMap<Char, TrieNode> = HashMap(), var isEnd: Boolean = false) {
         fun add(c: Char, isEnd: Boolean): TrieNode {
             val node = charMap.getOrDefault(c, TrieNode())
             node.isEnd = isEnd or node.isEnd
@@ -95,7 +95,7 @@ class StreamChecker(words: Array<String>) {
 }
 
 // Brace Expansion
-class MockSolution2 {
+private class MockSolution2 {
     fun expand(s: String): Array<String> {
         val options = mutableListOf<List<Char>>()
         convertToGraph(s, options)
@@ -143,7 +143,7 @@ class MockSolution2 {
 /**
  * Remove All Adjacent Duplicates In String
  */
-class MockSolution1 {
+private class MockSolution1 {
     fun removeDuplicates(s: String): String {
         val stack: Stack<Char> = Stack<Char>()
         s.forEach {

@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.uber
 
 import leetcode.uber.RestoreTheArrayFromAdjacentPairs
 import org.junit.Test
